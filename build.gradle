@@ -1,0 +1,21 @@
+plugins {
+    id 'java'
+}
+
+group 'fr.nkri'
+version '1.0'
+
+repositories {
+    mavenCentral()
+    maven {
+        url 'https://nexus.mrcubee.net/repository/minecraft/'
+    }
+}
+
+dependencies {
+    compileOnly 'org.spigotmc:spigot-api:1.7.10-R0.1-SNAPSHOT'
+}
+
+test {
+    useJUnitPlatform()
+}
