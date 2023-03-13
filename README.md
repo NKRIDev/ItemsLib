@@ -8,7 +8,7 @@ ItemsLib, is a very useful library, it contains only one class. It makes your li
 # How to use it ?
 
 **In your plugin:**
-    Exemple, You want to give an item with a custom name to a player when connecting:
+    Exemple, You want to give an custom item to a player when connecting:
 
 
 
